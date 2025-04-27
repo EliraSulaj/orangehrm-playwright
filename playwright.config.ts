@@ -8,7 +8,7 @@ export default defineConfig({
   reporter: "html",
   use: {
     baseURL: "https://opensource-demo.orangehrmlive.com/",
-    headless: false, // Set to `true` in CI/CD
+    headless: true,
     screenshot: "on",
   },
 });
